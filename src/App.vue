@@ -9,6 +9,8 @@
                 <component :is="Component" />
             </keep-alive>
         </router-view>
+
+        <credits />
     </div>
 
     <link
@@ -23,7 +25,12 @@
 </template>
 
 <script>
+import Credits from './components/credits.vue';
+
 export default {
+    components:{
+        Credits
+    },
     methods: {
         generateNewQuote() {
             this.$store.dispatch("generateNewQuote");
