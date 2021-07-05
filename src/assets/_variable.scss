@@ -1,0 +1,51 @@
+//colors
+$black: #000000;
+$light-black: #333333;
+$side-bar: #f7df94;
+$gray: #707070;
+$light-gray: #828282;
+$light-white: #f2f2f2;
+
+//widths
+$normal-border: 0.25rem;
+
+//mixin
+.quoteText {
+    padding: 1rem 5rem;
+    border-left: 5px solid $side-bar;
+    margin-top: 8rem;
+
+    h1 {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 120%;
+
+        color: $black;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .quoteText {
+        padding: 1rem 5rem;
+        border-left: 5px solid $side-bar;
+        margin-top: 5rem;
+
+        h1 {
+            font-size: 24px;
+            line-height: 120%;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .quoteText {
+        padding: 1rem 3rem;
+        border-left: 4px solid $side-bar;
+        margin-top: 3rem;
+
+        h1 {
+            font-size: 22px;
+            line-height: 120%;
+        }
+    }
+}
