@@ -5,9 +5,9 @@
 </template>
 
 <script>
-import MoreQuotesByAuthor from '../components/moreQuotesByAuthor.vue'
+import MoreQuotesByAuthor from "../components/moreQuotesByAuthor.vue";
 
 export default {
-  components:{MoreQuotesByAuthor}
-}
+  components: { MoreQuotesByAuthor },
+};
 </script>
